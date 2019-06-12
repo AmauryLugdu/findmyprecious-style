@@ -1,0 +1,347 @@
+body{font-family: 'Montserrat', sans-serif;}
+a{ color: inherit; }
+
+
+/*Contient les regles du menu du header ainsi que le titre du site (H1)*/
+.nav{
+
+display: flex;
+justify-content: space-around;
+list-style: none;
+text-decoration: none;
+background-color: grey;
+margin-bottom: 0;
+margin-top: 0;
+padding-left: 0;
+}
+
+.nav li a{
+
+text-decoration: none;
+}
+
+.nav li{
+
+padding-top: 8px;
+}
+
+.nav h1{
+
+font-size: 20px;
+margin-top: -5px;
+margin-bottom: 0;
+}
+
+
+
+
+
+/*Contient la premiere partie du site (Fellows wanted dead (or alive if you want to eat them later)*/
+#sectionfellows{
+
+border-bottom: solid;
+}
+
+.navmost{
+
+display: flex;
+justify-content: space-around;
+list-style: none;
+}
+
+.navpics{
+
+display: flex;
+justify-content: space-around;
+list-style: none;
+padding-left: 0px;
+height: 200px;
+}
+
+
+
+
+
+/*Contient la deuxieme partie du site (I have captured one of them, how do I get my reward?)*/
+#sectioncapture{
+
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+border-bottom: solid;
+
+}
+
+#sectioncapture h2{
+
+width: 70%;
+
+}
+
+#sectioncapture p{
+
+width: 70%;
+margin-top: 17px;
+margin-bottom: 0px;
+}
+
+#sectioncapture button{
+
+width: 100%;
+width: auto;
+margin-left: 700px;
+margin-bottom: 10px;
+border-width: 1px 1px 1px 1px;
+padding: 8px 8px 8px 8px;
+
+}
+
+#sectioncapture img{
+
+margin-left: 155px;
+}
+
+
+/*Contient les photos des personnages recherchés ainsi que les interactions*/
+
+.bloccard:hover.bloccard span {
+
+color: transparent;
+background: rgba(204, 204, 204, 0);
+}
+
+.bloccard:hover.bloccard p{
+
+color: transparent;
+background: rgba(204, 204, 204, 0);
+}
+
+.bloccard:hover.bloccard h5{
+
+font-size: 1em;
+bottom: 100px;
+top: -80px;
+right: -56px;
+left: 90px;
+color: white;
+}
+
+.bloccard img{
+
+opacity: 0.5;
+
+}
+
+.bloccard:hover.bloccard img{
+
+opacity: 1;
+
+}
+
+.bloccard p{
+
+opacity: 1;
+position: relative;
+bottom: 200px;
+margin-left: 10px;
+margin-right: 10px;
+padding-left: 5px;
+background: rgba(204, 204, 204, 0.5);
+border-radius: 10px;
+}
+
+.bloccard h5{
+
+position: relative;
+left: 56px;
+margin-top: 0px;
+margin-bottom: 0px;
+top: -130px;
+bottom: 100px;
+font-size: 2em;
+color: black;
+}
+
+.bloccard span{
+
+color: red;
+}
+
+
+
+
+/*Contient la troisieme partie du site (BestHunter)*/
+
+#sectionhunters{
+
+border-bottom: solid;
+}
+
+
+
+
+/*Contient la quatrieme partie du site (About the ring)*/
+
+#sectionring{
+
+border-bottom: solid;
+}
+
+#sectionring table{
+
+border: solid;
+border-collapse: collapse;
+margin: auto;
+width: 50%
+}
+
+#sectionring th {
+
+border: solid;
+}
+
+#sectionring td{
+
+border: solid;
+text-align: center;
+}
+
+
+
+
+/*Contient la cinquieme partie du site (Join Mordor army, we need you!)*/
+
+#sectionmordor{
+
+border-bottom: solid;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+width: 100%;
+
+}
+
+#sectionmordor h2{
+
+width: 100%;
+}
+
+#sectionmordor p{
+
+width: 70%;
+margin-left: 50px;
+}
+
+#sectionmordor button{
+
+margin-left: 580px;
+margin-bottom: 10px;
+border-width: 1px 1px 1px 1px;
+padding: 8px 8px 8px 8px;
+border-right-style: solid;
+}
+
+#sectioncontact{
+
+border-bottom: solid;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+#sectionmordor img{
+
+margin-left: 70px;
+}
+
+
+
+
+/*Contient la sixieme partie du site (ContactUs)*/
+
+
+#sectioncontact h2{
+
+width: 100%;
+}
+
+#sectioncontact form{
+
+width: 100%;
+}
+
+#sectioncontact label{
+
+width: 50%;
+padding-right: 4px;
+}
+
+#sectioncontact input#adress{
+
+width: 85%;
+}
+
+#sectioncontact input#email{
+
+margin-left: 4px;
+width: 85%;
+}
+
+#sectioncontact select{
+
+width: 100%
+}
+
+#sectioncontact button{
+
+width: 10%;
+margin-left: 620px;
+margin-bottom: 10px;
+margin-top: 10px;
+border-width: 1px 1px 1px 1px;
+padding: 8px 8px 8px 8px;
+border-right-style: solid;
+}
+
+#sectioncontact textarea{
+
+width: 100%;
+height: 100px;}
+
+
+
+/*Contient le footer*/
+
+
+#footer {
+
+width: 100%;
+display: flex;
+}
+
+#footer ul{
+
+display: flex;
+flex-wrap: wrap;
+width: 70%;
+list-style: none;
+}
+
+#footer li{
+
+width:300px;
+margin-bottom: 10px
+}
+
+#links {
+
+width: 30%;
+}
+
+#links li{
+
+width: 373px;
+margin-top: 10px;
+margin-left: 200px;
+}
